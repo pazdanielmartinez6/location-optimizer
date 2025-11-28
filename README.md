@@ -1,6 +1,7 @@
 # ATM Location Optimizer
 
 A comprehensive optimization toolkit for strategic ATM placement using real-world travel time data, multiple optimization algorithms (Annueling and Greedy algorithms), and advanced visualization capabilities.
+The solution to classical optimal location problem is applied to ATM sites within an area in North Madrid. The data is collected from municipality and OSRM (Open Source Routing Machine). The back up for the API calls is provided so  it can be run off line.
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -35,8 +36,7 @@ This project solves the **facility location problem** specifically for ATM place
 ### Use Case
 
 Originally developed for optimizing ATM placement in Madrid's Fuencarral-El Pardo district, this tool is **adaptable to any geographical area** and can be used for various facility location problems (retail stores, emergency services, distribution centers, etc.). The first 21 locations coincide with existing ATMs and the rest up to 100 are randomly collected from the
-existing demand points. The winners given by the algorithm could indicate locations that minimize driving distance and hence
-become candidates for ATM locations
+existing demand points. The winners given by the algorithm could indicate locations that minimize driving distance and hence become candidates for ATM locations
 
 ## ✨ Features
 
